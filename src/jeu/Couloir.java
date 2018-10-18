@@ -5,7 +5,7 @@ public class Couloir extends piece {
 
 	
 public static void choix() {
-System.out.println("veillez faire un choix entre 1 pour avancer ou 2 quittez le chateau");
+System.out.println("veillez faire un choix :\n\t\t\t\tTappez1: avancer \tTappez 2 :quittez le chateau");
 
 }
 public static void choix1() {

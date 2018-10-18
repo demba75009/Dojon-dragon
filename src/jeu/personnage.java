@@ -18,9 +18,11 @@ public class personnage extends Couloir {
 		}
 	
 	public static void fuir() {
-		System.out.println("vous fuiyez...");
+		System.out.println("vous fuyez...");
 		System.out.println("vous echappez au monstre");
 		quittez();
+		System.out.println(":)");
+
 
 		return;
 
@@ -30,8 +32,7 @@ public class personnage extends Couloir {
 		System.out.println("malgré un combat acharnez..");
 		
 		System.out.println("Vous perdez le combat...");
-		System.out.println("le monstre vous devore tout cru");
-
+		System.out.println("le monstre vous devore tout cru ");
 		System.out.println(":(");
 
 		
