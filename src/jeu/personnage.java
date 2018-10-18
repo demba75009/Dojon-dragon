@@ -28,7 +28,10 @@ public class personnage extends Couloir {
 	public static void  battre() {
 		System.out.println("vous vous battez..");
 		System.out.println("malgré un combat acharnez..");
+		
 		System.out.println("Vous perdez le combat...");
+		System.out.println("le monstre vous devore tout cru");
+
 		System.out.println(":(");
 
 		
