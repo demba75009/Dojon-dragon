@@ -42,7 +42,7 @@ public class chateaux extends personnage {
 		  System.out.println("\t\t\t\t\t\t Tappez 1: piece 2  \tTappez 2 :piece 3 "); 
 		  Scanner sc5 = new Scanner (System.in);
 		  reponse5 = sc.nextInt();
-		  
+		  //si l'utilisateur veut allez dans la piece n°2 apres avoir visiter la piece n°1
 		  if (reponse5 == 1)
 		  {
 			  avancer();
@@ -53,9 +53,10 @@ public class chateaux extends personnage {
 			  int reponse6;
 			  Scanner sc6 = new Scanner (System.in);		  
 			  reponse6 = sc.nextInt();
+			  //si il veut allez dans la piece n°3 apres avoir visiter la piece n°2
 			  if(reponse6 == 1)
 			  {
-				  avancer();
+			  avancer();
 			  piece3();	
 			  Scanner sc2 = new Scanner (System.in);
 				reponse2 = sc.nextInt();
@@ -67,15 +68,18 @@ public class chateaux extends personnage {
 				  battre();
 			  			
 	           }	
+			  //si il ne veut pa allez dans la piece n°3 apres avoir visiter la piece n°2
 			  if(reponse6 == 2)
 			  {
-			System.out.println("félicitation !!! Vous repartez avec un trésor :)");
+			     System.out.println("félicitation !!! Vous repartez avec un trésor :)");
 
-			quittez();
+			    quittez();
 			  			
 	           }
 			  
 		  }	  
+		  //si il ne veut pa allez dans la piece n°3 apres avoir visiter la piece n°1
+		  
 			if (reponse5 == 2)
 			  {
 
@@ -116,6 +120,7 @@ public class chateaux extends personnage {
 		  System.out.println("\t\t\t\t\t\t Tappez 1: piece 1  \t Tappez 2: piece 3 ");
 		  Scanner sc3 = new Scanner (System.in);
 			reponse3 = sc.nextInt();
+			 //si il veut dans  la piece n°1
 			if (reponse3 == 1)
 			 {
 
@@ -125,6 +130,8 @@ public class chateaux extends personnage {
 
 				
 			 }
+			 //si il veut dans  la piece n°3
+
 			if (reponse3 == 2)
 			  {
 
@@ -179,8 +186,6 @@ public class chateaux extends personnage {
 	 
 }
 
-
-	
 	
 	
 }
